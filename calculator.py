@@ -1,6 +1,9 @@
-x = float(input("What's x? "))
-y = float(input("What's y? "))
+def main():
+    x = int(input("What's x? "))
+    print("square of n:", square(x))
 
-z = round(x+y)
 
-print(f"{z:,}")
+def square(n):
+    return pow(n,2)
+
+main()
