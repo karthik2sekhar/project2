@@ -1,1 +1,1 @@
-# project2
+# This project has details about my Python learning
