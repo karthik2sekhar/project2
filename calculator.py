@@ -1,9 +1,10 @@
 def main():
     x = int(input("What's x? "))
-    print("square of n:", square(x))
+    print("square of x:", square(x))
 
 
 def square(n):
-    return pow(n,2)
+    return n + n
 
-main()
+if __name__ == "__main__":
+    main()
